@@ -1,0 +1,73 @@
+/*  1440PX (SMALLER DESKTOP */
+@media (max-width: 70em) {
+  .designs {
+    max-width: 70%;
+    margin-left: 2rem;
+  }
+}
+
+/*  375PX (PHONE */
+@media (max-width: 30em) {
+  .designs {
+    font-weight: 400;
+    padding: 2rem 2rem;
+  }
+  button {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.3rem 0.5rem;
+    border-radius: 43px;
+    font-size: 0.1rem;
+    border: hsl(179, 100%, 13%);
+  }
+
+  h3 {
+    font-family: Big Shoulders Display;
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 2.5rem;
+  }
+
+  .text {
+    font-family: Lexend Deca;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 4rem 2rem;
+    max-width: 5%;
+    border-bottom-left-radius: 11px;
+    border-top-left-radius: 11px;
+  }
+  .sedan-btn {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 4rem 5rem;
+    max-width: 10%;
+  }
+  .suv-btn {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 4rem 5rem;
+    max-width: 10%;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 11px;
+
+    overflow: hidden;
+  }
+  .luxury-btn {
+    color: hsl(179, 100%, 13%);
+  }
+}

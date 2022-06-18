@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.designs {
+  display: flex;
+  margin: 10rem;
+  max-width: 70%;
+  justify-items: center;
+  margin-left: 20rem;
+}
+
+img {
+  top: 2rem;
+  padding-bottom: 3rem;
+}
+
+button {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 2rem;
+  border-radius: 43px;
+  font-size: 1.5rem;
+  border: hsl(179, 100%, 13%);
+}
+
+h3 {
+  font-family: Big Shoulders Display;
+  color: hsl(0, 0%, 95%);
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 2.5rem;
+}
+
+.text {
+  font-family: Lexend Deca;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-bottom: 6rem;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 4rem 5rem;
+  max-width: 20%;
+  border-bottom-left-radius: 11px;
+  border-top-left-radius: 11px;
+}
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 4rem 5rem;
+  max-width: 20%;
+}
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 4rem 5rem;
+  max-width: 20%;
+  border-bottom-right-radius: 11px;
+  border-top-right-radius: 11px;
+
+  overflow: hidden;
+}
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
